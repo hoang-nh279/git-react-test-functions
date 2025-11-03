@@ -9,7 +9,7 @@ const App = () => {
             <div data-testid="counter-value">Count: {counter}</div>
             <button onClick={() => setCounter(counter + 1)}>Increment</button>
             <button onClick={() => setCounter(counter - 1)}>Decrement</button>
-            <p>hello</p>
+          
         </div>
        
     );
